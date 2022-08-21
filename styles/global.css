@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.025em;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom overrides */
+
+.zord-text p {
+  margin-bottom: 0.5em;
+}
+
+.zord-mint-details .zord-text-paragraph-sm {
+  font-size: var(--_1yv16yc6i); /* font-size: 18px */
+}
+
+.zord-text-eyebrow {
+  color: inherit;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.zord-mint-status__number-input {
+  background-color: var(--_1yv16yc5i); /* color: accent */
+  border-radius: var(--_1yv16yc7l); /* borderRadius: regular */
+  padding: 5px;
+}
+.zord-mint-status__number-input input,
+.zord-mint-status__number-input button,
+.zord-mint-status__number-input button > * {
+  border: 0;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--_1yv16yc5m); /* color: onAccent */
+}
+.zord-mint-status__number-input input {
+  width: 2.1em;
+}
+.zord-mint-status__number-input button:hover {
+  opacity: 0.6;
+}
